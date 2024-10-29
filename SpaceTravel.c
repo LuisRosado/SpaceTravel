@@ -104,7 +104,7 @@ int main(){
         Loser(&Nave);
     if(Nave.score == 20)
         Winner(&Nave);
-    printf("\n\n¿Deseas Volver a Jugar? 0)no 1)si :   ");
+    printf("\n\nÂ¿Deseas Volver a Jugar? 0)no 1)si :   ");
     scanf("%d",&op);
     }while(op!= 0);
 
